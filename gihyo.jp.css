@@ -1,0 +1,14 @@
+[id *= "headerBanner"],
+#secondary,
+#sub,
+#footer {
+  display: none !important;
+}
+#wrapper,
+#primary,
+#main {
+  width: 90% !important;
+}
+#header {
+  height: 80px !important;
+}

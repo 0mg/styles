@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* hide ads */
+[class^="sb_ads"] {
+  display: none !important;
+}
+/* hide header background image */
+#sw_im {
+  display: none !important;
+}
+/* hide hover preview trigger */
+a.sa_cpt {
+  display: none !important;
+}
+/* hide horizontal scroll-bar */
+body {
+  min-width: 0 !important;
+}
+#sw_canvas {
+  padding-left: 0 !important;
+  margin-left: 195px !important;
+}
+#sidebar, #results_area {
+  float: none !important;
+}
+/* remove padding */
+#content {
+  padding-right: 0 !important;
+}
+/* wide results */
+/*#content, .sa_cc {
+  max-width: none !important;
+}*/
