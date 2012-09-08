@@ -1,4 +1,7 @@
-@charset "utf-8";
+/* body background */
+body {
+  background-color: #fafafa !important;
+}
 /* hide ads */
 [class^="sb_ads"] {
   display: none !important;
@@ -17,12 +20,27 @@ body {
 }
 #sw_canvas {
   padding-left: 0 !important;
-  margin-left: 195px !important;
+  margin-left: 196px !important;
 }
 #sidebar, #results_area {
   float: none !important;
 }
+#sidebar {
+  position: absolute !important;
+  top: 100px !important;
+  left: 0 !important;
+}
+.sw_a, .sw_aa {
+  width: auto !important;
+}
+/* show search box full in narrow screen */
+#id_h {
+  height: 0 !important;
+}
 /* remove padding */
+#sb_foot {
+  margin-left: 0 !important;
+}
 #content {
   padding-right: 0 !important;
 }
