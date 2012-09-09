@@ -29,6 +29,7 @@ body {
   position: absolute !important;
   top: 100px !important;
   left: 0 !important;
+  width: 150px !important;
 }
 .sw_a, .sw_aa {
   width: auto !important;
