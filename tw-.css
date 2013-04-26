@@ -9,5 +9,11 @@
  * Styles for tw-
  */
 .quote.tweet {
-	display: none !important;
+  display: none;
+}
+.quote.tweet:only-child {
+  display: list-item;
+}
+body {
+  font-family: "Lucida Console" !important;
 }
