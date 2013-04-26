@@ -1,0 +1,58 @@
+/* INITIALIZE */
+* {
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 none !important;
+  background: transparent !important;
+  width: auto !important;
+  height: auto !important;
+  max-width: auto !important;
+  max-height: auto !important;
+  min-width: auto !important;
+  min-height: auto !important;
+  overflow: hidden !important;
+  position: static !important;
+  display: block !important;
+  float: none !important;
+  font: inherit !important;
+  color: inherit !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+  border-radius: 0 !important;
+}
+a, span, code, kbd, abbr, img, label {
+  display: inline !important;
+}
+input, textarea {
+  background: #fff !important;
+  border: inset 2px #fff !important;
+}
+input[type="submit"], input[type="button"], button {
+  background: ButtonFace !important;
+  color: ButtonText !important;
+  border: outset 2px #fff !important;
+}
+head, script, style {
+  display: none !important;
+}
+html, body {
+  overflow: auto !important;
+}
+h1 {
+  font-size: x-large !important;
+}
+a {
+  color: #00b !important;
+}
+a:visited {
+  color: #88b !important;
+}
+/* USER STYLE */
+.header_pc, #share_bg, #sub_wrap_right, #footer,
+.tw_btn_s, .fb_btn_s, .like_btn_s {
+  display: none !important;
+}
+img {
+  max-width: 50% !important;
+}
