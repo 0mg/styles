@@ -56,3 +56,6 @@ a:visited {
 img {
   max-width: 50% !important;
 }
+.sub {
+  border-top: 3em solid silver !important;
+}
